@@ -100,3 +100,31 @@
     color: rgb(255, 0, 0);
     font-size: 30px;
 }
+
+@media screen and (max-width: 1024px) {
+    .quiz-app {
+        flex-direction: column;
+    }
+    .answer-section button {
+        width: 120px;
+        height: 100%;
+        font-size: 14px;
+    }
+    .question-text {
+        text-align: center;
+        font-size: 15px;
+    }
+    .score-section span {
+        text-align: center;
+        font-size: 14px;
+    }
+    .score-section button {
+        margin-left: 20px;
+    }
+    .question-count h2 {
+        font-size: 17px;
+    }
+    .question-count span {
+        font-size: 13px;
+    }
+}
